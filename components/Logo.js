@@ -6,12 +6,12 @@ export const Logo = ({ size = 100, color = '#2E7D32' }) => {
   return (
     <View style={styles.container}>
       <MaterialCommunityIcons name="leaf" size={size} color={color} />
-      <MaterialCommunityIcons 
+      {/* <MaterialCommunityIcons 
         name="recycle" 
         size={size * 0.8} 
         color={color} 
         style={styles.recycleIcon} 
-      />
+      /> */}
     </View>
   );
 };

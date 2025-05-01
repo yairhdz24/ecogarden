@@ -36,7 +36,7 @@ export default function SplashScreen({ navigation }) {
         },
       ]}>
         <Logo size={120} />
-        <Text style={styles.title}>EcoClassifier</Text>
+        <Text style={styles.title}>EcoGarden</Text>
         <Text style={styles.subtitle}>Universidad Sustentable</Text>
       </Animated.View>
     </View>
