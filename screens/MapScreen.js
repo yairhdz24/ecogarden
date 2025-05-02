@@ -35,8 +35,8 @@ const WASTE_BINS = [
     type: 'plastic',
     distance: '250m',
     coordinate: {
-      latitude: 20.6558611,
-      longitude: -103.3264497,
+      latitude: 20.658667,
+      longitude: -103.3265211,
     },
   },
   {
@@ -46,8 +46,8 @@ const WASTE_BINS = [
     type: 'paper',
     distance: '180m',
     coordinate: {
-      latitude: 20.6538611,
-      longitude: -103.3244497,
+      latitude: 20.6563272,
+      longitude: -103.3266746,
     },
   },
   {
@@ -61,7 +61,53 @@ const WASTE_BINS = [
       longitude: -103.3274497,
     },
   },
+  // Nuevos contenedores cercanos a CUCEI
+  {
+    id: 5,
+    title: 'Contenedor Orgánico',
+    description: 'Pasillo Central - CUCEI',
+    type: 'organic',
+    distance: '150m',
+    coordinate: {
+      latitude: 20.6555000,
+      longitude: -103.3259000,
+    },
+  },
+  {
+    id: 6,
+    title: 'Contenedor Plásticos',
+    description: 'Frente al Auditorio - CUCEI',
+    type: 'plastic',
+    distance: '200m',
+    coordinate: {
+      latitude: 20.6572000,
+      longitude: -103.3245000,
+    },
+  },
+  {
+    id: 7,
+    title: 'Contenedor Papel',
+    description: 'Laboratorios de Ingeniería - CUCEI',
+    type: 'paper',
+    distance: '220m',
+    coordinate: {
+      latitude: 20.6542000,
+      longitude: -103.3270000,
+    },
+  },
+  {
+    id: 8,
+    title: 'Contenedor Vidrio',
+    description: 'Entrada Secundaria - CUCEI',
+    type: 'glass',
+    distance: '280m',
+    coordinate: {
+      latitude: 20.6559000,
+      longitude: -103.3263000,
+    },
+  },
 ];
+
 
 export default function MapScreen({ navigation }) {
   const [selectedBin, setSelectedBin] = useState(null);
